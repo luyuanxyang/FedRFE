@@ -40,3 +40,6 @@ python main.py --dataset svhn --num_client 20 --partition dir --beta 0.05
 | `--partition` | Partitioning strategy: `iid`, `dir`, or `noniid` | `dir` |
 | `--beta` | Dirichlet concentration parameter (used only with `--partition dir`); smaller = more skewed | `0.01` |
 | `--label_num_per_client` | Number of classes per client (used only with `--partition noniid`) | `3` |
+
+
+Other baselines can be found in their originial code repositories.
